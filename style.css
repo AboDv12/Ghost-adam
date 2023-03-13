@@ -1,0 +1,131 @@
+body {
+    margin:0px;
+    font-size: 15pt;
+    background:#FFFFFF;
+    font-family:IBM Plex Sans Arabic;
+}
+#title{
+ margin:0px;
+ padding-top:10px;
+ padding-bottom:30px;
+  color:#280C49;
+}
+#icon{
+  
+  width: 50%;
+  border-radius:30%;
+ margin-bottom:30px;
+}
+#page{
+  background: #DCB477;
+  border-bottom-right-radius: 50%;
+  height:150%;
+  width:100%;
+}
+#youtubeLogo{
+  width:50%;
+}
+#discordLogo{
+  background: #4B2383;
+  width:45%;
+  border-radius: 4px;
+  padding: 3%;
+}
+#img{
+ display: grid;
+ justify-items: center;
+ justify-content: center;
+ align-items: center;
+ grid-template-columns: 1fr;
+ row-gap: 30px;
+}
+#instagramLogo{
+  width:45%;
+  margin-top:-10px;
+  margin-bottom:-10px;
+}
+
+#tiktokLogo{
+  width:50%;
+ 
+}
+#endPage{
+  width:100%;
+  display:grid;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  background: rgba(0,0,0,0.8);
+  color:white;
+  font-size: 15px;
+}
+#head{
+  background:white;
+  width:100%;
+  height:100%;
+  color:black;
+  margin:0;
+  font-size: 70%;
+  font-weight: bold;
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom:20px;
+  margin-top:-95px;
+}
+p{
+  margin:0;
+ 
+}
+#Menu{
+  width:100%;
+  height:50px;
+}
+#closeMenu{
+  position : absolute ;
+  right:10px;
+}
+a{
+  text-decoration:none;
+  color:black;
+}
+@media screen and (min-width: 900px) {
+  p {
+    font-size: 40px;
+  }
+  h2{
+    font-size:70px;
+  }
+  #Menu{
+    width:0px;
+    height:0px;
+  }
+  #Menu img{
+    width:0px;
+    height:0px;
+  }
+  #head{
+    margin-top:20px;
+  }
+  #head img{
+    width:70px;
+  }
+  #icon{
+    width:400px;
+  }
+  h3{
+    font-size: 60px;
+  }
+  #img img{
+    width:90%;
+  }
+  #img #instagramLogo{
+    width:70%;
+  }
+  #endPage{
+    position: absolute;
+    left:0;
+    right:0;
+    bottom:0;
+    
+  }
+}
